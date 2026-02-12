@@ -1,0 +1,178 @@
+body {
+    background-color: rgb(244, 238, 229);
+
+
+    font-family: "SN Pro", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+
+nav {
+    background-color: rgb(82, 108, 194);
+    color: whitesmoke;
+    padding: 25px;
+}
+
+h1,
+li,
+ul {
+    display: inline;
+    margin-top: 10px;
+}
+
+ul {
+    padding-left: 60%;
+}
+
+h1 {
+    padding-left: 20px;
+}
+
+li {
+    color: rgb(246, 246, 249);
+    cursor: pointer;
+}
+
+li :hover {
+    color: rgb(9, 0, 0);
+}
+
+input {
+    padding: 10px;
+    width: 60%;
+    margin-left: 240px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#collect {
+    width: 100%;
+    height: auto;
+}
+
+#Destination {
+    color: rgb(9, 9, 9);
+    margin: top 20%;
+    ;
+}
+
+#Travel1,
+#travel2,
+#travel3 {
+    width: 300px;
+    height: 300px;
+    margin-top: 40px;
+    margin-left: 90px;
+    border-style: inset;
+    border-width: 5px;
+    border-color: beige;
+}
+
+
+.travel {
+    margin-left: 40px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.hidden {
+    padding: 40px;
+    text-align: center;
+    background: #ebe3d6;
+}
+
+.hidden-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.hidden-card {
+    width: 300px;
+}
+
+.hidden-card img {
+    width: 100%;
+    border: 6px solid #d3ccbe;
+}
+
+.hidden-card h3 {
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+.hidden-card p {
+    color: #555;
+    font-size: 14px;
+}
+
+.packages {
+    text-align: center;
+    padding: 50px;
+    background:rgb(251, 230, 199);
+}
+
+.package-box {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.pack {
+    width: 260px;
+    padding: 30px;
+    border-radius: 12px;
+    border: 1px solid #ddd;
+}
+
+.pack h2 {
+    font-size: 32px;
+}
+
+.pack p {
+    margin: 8px 0;
+}
+
+.premium {
+    border: 2px solid orange;
+    background: #777472;
+}
+
+.premium span {
+    color: orange;
+    font-weight: bold;
+}
+
+.btn {
+    margin-top: 15px;
+    padding: 10px 25px;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.blue {
+    background: #00a2ff;
+}
+
+.orange {
+    background: orange;
+}
+
+.green {
+    background: #22c55e;
+}
+.footer{
+background:#12a4e5;
+color:white;
+text-align:center;
+padding:40px 10px;
+}
+
+.footer p{
+margin:10px 0;
+}
